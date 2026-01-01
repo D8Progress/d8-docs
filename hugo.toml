@@ -1,4 +1,4 @@
-baseURL = "https://docs.d8progress.com/"
+baseURL = "https://docs.d8progress.com"
 title = "D8 Progress Documentation"
 description = "User guide and documentation for D8 Progress - gamified goal tracking for neurodivergent brains"
 
@@ -7,6 +7,8 @@ languageCode = "en-us"
 
 enableRobotsTXT = true
 enableGitInfo = true
+canonifyURLs = true
+relativeURLs = false
 
 # Hugo modules (for Docsy)
 [module]
