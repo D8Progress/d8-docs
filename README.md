@@ -97,6 +97,7 @@ hugo mod clean
 ### Docsy Theme Configuration
 
 Key customizations:
+
 - **Colors**: Matches D8 Progress branding
 - **Navigation**: Links to community and main app
 - **Feedback**: Directs users to GitHub issues/discussions

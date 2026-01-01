@@ -22,7 +22,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.121.0
+      HUGO_VERSION: 0.134.0
     steps:
       - name: Install Hugo CLI
         run: |
@@ -39,6 +39,8 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Initialize Hugo modules
+        run: hugo mod init github.com/D8Progress/d8-docs && hugo mod get -u
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
