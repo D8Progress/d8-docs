@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+.angular/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Testing
+coverage/
+playwright-report/
+test-results/
+
+# MongoDB data (if running locally without Docker)
+data/
+
+# Hugo / Docsy (userGuide/)
+userGuide/public/
+userGuide/resources/
+userGuide/.hugo_build.lock
+userGuide/node_modules/
+userGuide/go.sum
+
+# Temporary documentation files for agentic workflows
+docs/temporary/
