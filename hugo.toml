@@ -53,7 +53,7 @@ edit_page = true
 sidebar_menu_compact = true
 breadcrumb_disable = false
 navbar_logo = true
-footer_about_disable = false
+footer_about_enable = true
 
 [params.ui.feedback]
 enable = true
