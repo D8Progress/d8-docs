@@ -39,8 +39,8 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Initialize Hugo modules
-        run: hugo mod init github.com/D8Progress/d8-docs && hugo mod get -u
+      - name: Update Hugo modules
+        run: hugo mod get -u
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
