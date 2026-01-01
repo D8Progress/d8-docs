@@ -1,50 +1,46 @@
 ---
-title: "D8 Progress Documentation"
-linkTitle: "D8 Progress"
+title: 'Deliber8 Progress'
 ---
 
-{{< blocks/cover title="Welcome to D8 Progress!" image_anchor="top" height="full" >}}
-<a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
-  Get Started <i class="fas fa-arrow-alt-circle-right ms-2"></i>
-</a>
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://d8progress.com">
-  Try the App <i class="fas fa-external-link-alt ms-2"></i>
-</a>
-<p class="lead mt-5">Gamified goal tracking designed specifically for neurodivergent brains</p>
-{{< /blocks/cover >}}
+# Deliber8 Progress
 
-{{< blocks/lead color="primary" >}}
-**D8 Progress** (pronounced "Deliberate Progress") is a productivity app built specifically for ADHD, autistic, and other neurodivergent minds.
+**Gamified goal tracking for neurodivergent brains**
 
-Unlike traditional productivity apps that assume habits become automatic, D8 Progress provides ongoing dopamine rewards, flexible structures, and forgiveness-first mechanics that work WITH your brain, not against it.
-{{< /blocks/lead >}}
+<a class="btn btn-lg btn-primary me-3 mb-4" href="/d8progress/docs/">Get Started →</a>
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/yourusername/d8progress">GitHub</a>
 
-{{< blocks/section color="dark" type="row" >}}
-{{% blocks/feature icon="fa-brain" title="Neurodivergent-First Design" %}}
-Every feature is designed with ADHD, autism, and other neurodivergent experiences in mind.
-{{% /blocks/feature %}}
+---
 
-{{% blocks/feature icon="fa-gamepad" title="Choose Your Level of Gamification" %}}
-From minimal tracking to full RPG mode with characters and gold - you control your experience.
-{{% /blocks/feature %}}
+## Traditional productivity apps fail neurodivergent brains.
 
-{{% blocks/feature icon="fa-shield-alt" title="Forgiveness-First" %}}
-Streak shields and flexible structures prevent shame spirals when life gets complicated.
-{{% /blocks/feature %}}
+They assume habits become automatic. They punish missed days. They treat motivation as a character flaw.
 
-{{< /blocks/section >}}
+**Deliber8 Progress is different.**
 
-{{< blocks/section type="row" >}}
-{{% blocks/feature icon="fab fa-github" title="Community Driven" url="https://github.com/D8Progress/d8-community" %}}
-Join our community for support, feature requests, and discussions about neurodivergent productivity.
-{{% /blocks/feature %}}
+---
 
-{{% blocks/feature icon="fa-universal-access" title="Accessibility First" url="/docs/accessibility/" %}}
-Built with screen readers, keyboard navigation, and cognitive accessibility in mind.
-{{% /blocks/feature %}}
+## Features
 
-{{% blocks/feature icon="fa-rocket" title="Getting Started" url="/docs/getting-started/" %}}
-Ready to try D8 Progress? Our getting started guide will have you up and running in minutes.
-{{% /blocks/feature %}}
+### 🎮 Gamification That Works
 
-{{< /blocks/section >}}
+XP, levels, streaks, achievements — ongoing dopamine rewards that never stop mattering.
+
+### 🛡️ Forgiveness First
+
+Streak shields prevent one bad day from ruining weeks of progress. Life happens.
+
+### 📅 Week-Based Planning
+
+Days are too granular. Weeks give you flexibility without losing structure.
+
+### 🐉 Party System
+
+Turn goals into characters you level up. Emotional investment beats willpower.
+
+### 🧩 Flexible Objectives
+
+Simple tasks, milestone projects, habits, checklists — the right structure for each goal.
+
+### 💻 Open Source
+
+Self-host it, contribute to it, make it yours.

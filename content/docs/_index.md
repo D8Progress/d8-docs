@@ -1,44 +1,28 @@
 ---
-title: "Documentation"
-linkTitle: "Docs"
-menu:
-  main:
-    weight: 20
-    pre: <i class='fa fa-book'></i>
+title: 'Deliber8 Progress Documentation'
+linkTitle: 'Docs'
+weight: 20
 ---
 
-Welcome to the D8 Progress documentation!
+Welcome to **Deliber8 Progress** — a gamified goal and task tracker designed specifically for neurodivergent brains (ADHD, autism, and friends).
 
-## 🚀 New to D8 Progress?
+## Why Deliber8 Progress?
 
-Start here:
+Traditional productivity apps assume that once you build a habit, it becomes automatic. **That's not how our brains work.**
 
-- [**Getting Started**](getting-started/) - Set up your account and create your first goal
-- [**Core Concepts**](concepts/) - Understanding objectives, tasks, and the D8 Progress way
-- [**Gamification Guide**](gamification/) - Choose your level: Minimal, Lite, or Full Party Mode
+Deliber8 Progress provides:
 
-## 📖 Feature Guides
+- **Ongoing dopamine rewards** — XP, levels, achievements, and streaks that never stop mattering
+- **Forgiveness-first mechanics** — Streak shields prevent shame spirals from one missed day
+- **Flexible goal structures** — From simple task lists to complex milestone-based projects
+- **Optional gamification depth** — Go full RPG with the Party System, or keep it minimal
 
-- [**Goals & Objectives**](features/objectives/) - Simple lists, milestones, habits, and checklists
-- [**Task Management**](features/tasks/) - Completing, organizing, and tracking your tasks
-- [**Streaks & Shields**](features/streaks/) - Building momentum with forgiveness built-in
-- [**XP & Levels**](features/progression/) - Understanding your progress rewards
-- [**Party System**](features/party/) - Characters, gold, and the full RPG experience
+## Getting Started
 
-## ♿ Accessibility & Neurodivergent Features
+- **[Quick Start](getting-started/quick-start/)** — Get up and running in 5 minutes
+- **[Core Concepts](getting-started/concepts/)** — Understand goals, objectives, and tasks
+- **[Weekly View](features/weekly-view/)** — Your command center for the week
 
-- [**Accessibility Guide**](accessibility/) - Screen readers, keyboard navigation, and more
-- [**ADHD-Specific Features**](neurodivergent/adhd/) - Dopamine rewards, hyperfocus management
-- [**Autism-Friendly Features**](neurodivergent/autism/) - Routine support, sensory considerations
+## What Version Are You On?
 
-## 🛠️ Advanced Topics
-
-- [**Import & Export**](advanced/data/) - Managing your data
-- [**Integrations**](advanced/integrations/) - Calendar sync and external tools
-- [**Troubleshooting**](troubleshooting/) - Common issues and solutions
-
-## 💬 Need Help?
-
-- [**FAQ**](faq/) - Frequently asked questions
-- [**Community Support**](https://github.com/D8Progress/d8-community/discussions) - Ask questions and get help
-- [**Report Issues**](https://github.com/D8Progress/d8-community/issues) - Bug reports and feature requests
+This documentation covers the features available in the current release. Check the version in the app's settings to see what's available to you.

@@ -1,0 +1,14 @@
+{
+  "name": "userguide",
+  "version": "1.0.0",
+  "description": "D8 Progress User Guide - Hugo site with Docsy theme",
+  "scripts": {
+    "serve": "hugo server",
+    "build": "hugo"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss-cli": "^11.0.0",
+    "hugo-extended": "0.152.2"
+  }
+}
