@@ -63,6 +63,12 @@ enable = true
 [params.ui.readingtime]
 enable = true
 
+# Enable local search (offline, no external service needed)
+[params.search]
+offlineSearch = true
+offlineSearchMaxResults = 25
+offlineSearchSummaryLength = 200
+
 # Links to user social accounts 
 [params.links]
 [[params.links.user]]
