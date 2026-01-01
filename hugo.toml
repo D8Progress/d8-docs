@@ -1,0 +1,98 @@
+baseURL = "https://d8progress.github.io/d8-docs/"
+title = "D8 Progress Documentation"
+description = "User guide and documentation for D8 Progress - gamified goal tracking for neurodivergent brains"
+
+# Language settings
+languageCode = "en-us"
+
+enableRobotsTXT = true
+enableGitInfo = true
+
+# Hugo modules (for Docsy)
+[module]
+[[module.imports]]
+path = "github.com/google/docsy"
+disable = false
+[[module.imports]]
+path = "github.com/google/docsy/dependencies"
+disable = false
+
+# Docsy requires these
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+# Highlighting config
+pygmentsCodeFences = true
+pygmentsUseClasses = false
+pygmentsStyle = "tango"
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.parser]
+[markup.goldmark.parser.attribute]
+block = true
+[markup.goldmark.renderer]
+unsafe = true
+[markup.highlight]
+style = "tango"
+
+[params]
+description = "Gamified goal tracking designed specifically for ADHD, autistic, and other neurodivergent brains"
+github_repo = "https://github.com/D8Progress/d8-docs"
+github_project_repo = "https://github.com/D8Progress/d8-community"
+
+# Edit page
+github_branch = "main"
+edit_page = true
+
+# User interface configuration
+[params.ui]
+sidebar_menu_compact = true
+breadcrumb_disable = false
+navbar_logo = true
+footer_about_disable = false
+
+[params.ui.feedback]
+enable = true
+'yes' = 'Glad to hear it! Please <a href="https://github.com/D8Progress/d8-community/discussions">tell us how we can improve</a>.'
+'no' = 'Sorry to hear that. Please <a href="https://github.com/D8Progress/d8-community/issues/new?template=question.yml">tell us how we can improve</a>.'
+
+[params.ui.readingtime]
+enable = true
+
+# Links to user social accounts 
+[params.links]
+[[params.links.user]]
+name = "GitHub Community"
+url = "https://github.com/D8Progress/d8-community"
+icon = "fab fa-github"
+desc = "Discussion and contributions"
+[[params.links.user]]
+name = "Website"
+url = "https://d8progress.com"
+icon = "fas fa-globe"
+desc = "D8 Progress app"
+
+# Menu structure
+[menu]
+[[menu.main]]
+name = "Documentation"
+url = "/docs/"
+weight = 10
+[[menu.main]]
+name = "Community"
+url = "https://github.com/D8Progress/d8-community"
+weight = 20
+[[menu.main]]
+name = "App"
+url = "https://d8progress.com"
+weight = 30
+
+# Privacy
+[privacy]
+[privacy.googleAnalytics]
+disable = true
+[privacy.youtube]
+disable = false
+privacyEnhanced = true
